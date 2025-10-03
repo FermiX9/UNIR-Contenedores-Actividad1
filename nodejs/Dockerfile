@@ -7,7 +7,6 @@ WORKDIR /app
 COPY . .
 # Instalamos las dependencias del proyecto
 RUN npm install
-
 # Exponemos el puerto en el que la aplicación se ejecutará
 EXPOSE 3000
 # Comando para iniciar la aplicación
